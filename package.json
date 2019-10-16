@@ -34,11 +34,13 @@
     "url": "git+https://github.com/UlordChain/node-stratum-pool.git"
   },
   "dependencies": {
-    "multi-hashing": "git+https://github.com/UlordChain/node-multi-hashing.git",
+    "multi-hashing": "git+https://github.com/wahaobi/node-multi-hashing-yescrypt-0.5.git",
+    "bitcoinjs-lib": "*",
     "bignum": "*",
     "base58-native": "*",
     "async": "*",
     "redis": "*",
+    "blake2": "*",
     "node-json-minify": "*"
   },
   "engines": {
